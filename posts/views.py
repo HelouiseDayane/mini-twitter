@@ -7,6 +7,7 @@ from rest_framework.decorators import api_view
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
 from django.contrib.auth import get_user_model
+from .tasks import notify_followers
 
 
 logger = logging.getLogger(__name__)
@@ -19,6 +20,7 @@ class PostCreateView(generics.CreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
+        notify_followers.delay(post.id)
 
     def post(self, request, *args, **kwargs):
         serializer = PostSerializer(data=request.data)
