@@ -17,11 +17,11 @@ Mini Twitter é uma aplicação de microblogging que permite que usuários poste
 
 ### Diagrama de Entidade-Relacionamento (ERD)
 
-![ERD]([link_para_meu_diagrama_erd.png](https://lucid.app/lucidspark/a0070528-bf0c-4b6e-8697-0097e83ca577/edit?invitationId=inv_3e58e1b9-646b-4e86-9924-c5316254269a))
+![ERD](https://lucid.app/lucidchart/a0070528-bf0c-4b6e-8697-0097e83ca577/edit?viewport_loc=-1274%2C-1058%2C3328%2C1642%2C0_0&invitationId=inv_3e58e1b9-646b-4e86-9924-c5316254269a)
 
 ### Diagrama de Arquitetura
 
-![Diagrama de Arquitetura](link_para_seu_diagrama_de_arquitetura.png)
+![Diagrama de Arquitetura](https://lucid.app/lucidchart/a0070528-bf0c-4b6e-8697-0097e83ca577/edit?viewport_loc=-1915%2C-1099%2C4992%2C2463%2C0_0&invitationId=inv_3e58e1b9-646b-4e86-9924-c5316254269a)
 
 ## Configuração do Ambiente
 
