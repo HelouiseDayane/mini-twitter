@@ -70,7 +70,7 @@ SECRET_KEY=postgres
 ```
 
 ### Passo 6: Executar o Docker Compose
-Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis:
+No arquivo settings na raiz do projeto e adicione as seguintes variáveis:
 ```bash
 docker-compose up --build
 ```
