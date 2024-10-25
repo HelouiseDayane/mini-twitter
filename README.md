@@ -62,7 +62,7 @@ pip install -r requirements.txt
 - **Crie um banco** de dados chamado mini_twitter_db.
   
 ### Passo 5: Configurar Variáveis de Ambiente
-Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis:
+No arquivo settings na raiz do projeto e adicione as seguintes variáveis:
 ```bash
 DATABASE_URL=postgres://postgres:postgres@db:5432/mini_twitter_db
 SECRET_KEY=postgres
